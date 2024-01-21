@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.center-box {
+    background-color: hsl(0, 69%, 84%);
+    border: 2px solid #cccccc00;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+#timer {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#timeTaken {
+    font-size: 18px;
+}
+
+#startStopBtn {
+    font-size: 18px;
+    padding: 10px 20px;
+}
